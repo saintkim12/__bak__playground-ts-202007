@@ -1,12 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ElInput: Function = (): HTMLTextAreaElement => {
+// interface ElInputProps {
+//   rows?: number
+// }
+// const ElInput: Function = ({ rows = 15 }: ElInputProps): HTMLTextAreaElement => {
+const ElInput: Function = ({ rows = 15 }: { rows?: number }): HTMLTextAreaElement => {
   const Textarea = styled.textarea`
     width: 100%;
+    box-sizing: border-box;${/* for width 100% exclude padding: https://stackoverflow.com/a/5219611 */''}
   `
   return (
-    <Textarea rows="15"></Textarea>
+    <Textarea rows={ rows }></Textarea>
   )
 }
 
