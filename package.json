@@ -18,11 +18,18 @@
   },
   "homepage": "https://github.com/saintkim12/playground-ts-202007#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "marked": "^1.1.0",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap.native": "^3.0.9",
+    "github-markdown-css": "^4.0.0",
+    "perfect-scrollbar": "^1.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
