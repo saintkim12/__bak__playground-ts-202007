@@ -26,6 +26,7 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
+    "@mdi/font": "^5.3.45",
     "bootstrap": "^4.5.0",
     "bootstrap.native": "^3.0.9",
     "github-markdown-css": "^4.0.0",

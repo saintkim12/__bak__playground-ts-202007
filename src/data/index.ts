@@ -1,5 +1,6 @@
+import hello from './hello.md'
 import did from './did.md'
 import proud from './proud.md'
 import todo from './todo.md'
-export { did, proud, todo }
-export default [did, proud, todo].join('')
+export { hello, did, proud, todo }
+export default [hello, did, proud, todo].join('')
